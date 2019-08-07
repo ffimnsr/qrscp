@@ -5,8 +5,10 @@
 <img src="https://raw.githubusercontent.com/ffimnsr/qrscp/master/docs/qrcode.png"
   alt="logo" title="qrcode" align="right" width="290" />
 
-> "The tools that you use shape how you look at the world."
-> -- by [Tim Ewald](https://youtu.be/ShEez0JkOFw?t=2502)
+> Far out in the uncharted backwaters of the unfashionable end
+> of the western spiral amr of the Galaxy lies a small,
+> unregarded yellow sun.
+> - from The Hitchhicker's Guide To The Galaxy by Douglas Adams
 
 Quick QR file transfer over local connection.
 
