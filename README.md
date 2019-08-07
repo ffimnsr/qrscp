@@ -3,7 +3,7 @@
 ![npm](https://img.shields.io/npm/v/@ffimnsr/qrscp?style=flat-square) ![npm](https://img.shields.io/npm/l/@ffimnsr/qrscp?style=flat-square) ![npm](https://img.shields.io/npm/dm/@ffimnsr/qrscp?style=flat-square)
 
 <img src="https://raw.githubusercontent.com/ffimnsr/qrscp/master/docs/qrcode.png"
-  alt="logo" title="qrcode" align="right" width="128" />
+  alt="logo" title="qrcode" align="right" />
 
 > "The tools that you use shape how you look at the world."
 > -- by [Tim Ewald](https://youtu.be/ShEez0JkOFw?t=2502)
