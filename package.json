@@ -1,0 +1,39 @@
+{
+  "name": "qrscp",
+  "version": "1.0.0",
+  "description": "Quick QR file transfer over local connection.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ffimnsr/qrscp.git"
+  },
+  "scripts": {
+    "start": "./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "qrscp": "./index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/ffimnsr/qrscp/issues"
+  },
+  "keywords": [
+    "file",
+    "qr",
+    "wifi",
+    "local",
+    "transfer"
+  ],
+  "homepage": "https://github.com/ffimnsr/qrscp",
+  "author": "ffimnsr",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.20.0",
+    "envinfo": "^7.3.1",
+    "express": "^4.17.1",
+    "inquirer": "^6.5.0",
+    "morgan": "^1.9.1",
+    "qrcode-terminal": "^0.12.0",
+    "shortid": "^2.2.14"
+  }
+}
