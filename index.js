@@ -34,7 +34,6 @@ program
       .then(stats => {
         if (stats.isFile()) {
           serve({
-            type: constants.FILE,
             source,
             port
           });
@@ -56,7 +55,28 @@ program
 
 program
   .command("receive <directory>")
-  .description("receive the transferred file to the given directory");
+  .description("receive the transferred file to the given directory")
+  .option("-p, --port [port]", "port to use in serving the file")
+  .action((directory, options) => {
+    const port = options.port || 0;
+    const source = path.resolve(directory);
+
+    stat(source)
+      .then(stats => {
+        if (stats.isDirectory()) {
+          serve({
+            action: constants.ACTION_RECEIVE,
+            source,
+            port
+          });
+        }
+
+        if (stats.isFile()) {
+          throw new Error("Specify a directory to receive file.");
+        }
+      })
+      .catch(console.log);
+  });
 
 program.on("command:*", function() {
   console.error(

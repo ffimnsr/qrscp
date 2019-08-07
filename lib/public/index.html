@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-witdh, initial-scale=1.0" />
+    <title>QRSCP</title>
+    <link rel="stylesheet" href="static/normalize.min.css" />
+    <link rel="stylesheet" href="static/uppy.min.css" />
+    <style>
+      #dnd-area {
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="dnd-area"></div>
+    <script src="static/uppy.min.js"></script>
+    <script>
+      let uppy = Uppy.Core()
+          .use(Uppy.Webcam)
+          .use(Uppy.XHRUpload, {
+            endpoint: "upload",
+            fieldName: "files",
+            bundle: true
+          })
+          .use(Uppy.Dashboard, {
+            width: 300,
+            height: 350,
+            inline: true,
+            target: "#dnd-area",
+            plugins: [
+              "Webcam"
+            ],
+            hideRetryButton: true,
+            hideCancelButton: true
+          });
+
+      uppy.on("complete", (result) => {
+        console.log("Upload complete! We've uploaded these files:", result.successful)
+      });
+    </script>
+  </body>
+</html>
