@@ -1,6 +1,6 @@
 # QRSCP
 
-![npm](https://img.shields.io/npm/v/qrscp?style=flat-square) ![NPM](https://img.shields.io/npm/l/qrscp?style=flat-square) ![npm](https://img.shields.io/npm/dm/qrscp?style=flat-square)
+![npm](https://img.shields.io/npm/v/@ffimnsr/qrscp?style=flat-square) ![NPM](https://img.shields.io/npm/l/@ffimnsr/qrscp?style=flat-square) ![npm](https://img.shields.io/npm/dm/@ffimnsr/qrscp?style=flat-square)
 
 Quick QR file transfer over local connection.
 
