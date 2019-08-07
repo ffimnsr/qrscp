@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 "use strict";
 
 const fs = require("fs");
@@ -103,4 +105,8 @@ if (program && typeof program.info !== "undefined") {
       }
     )
     .then(console.log);
+}
+
+if (program && program.args.length === 0) {
+  program.help();
 }

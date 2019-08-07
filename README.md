@@ -6,15 +6,15 @@ Quick QR file transfer over local connection.
 
 ## Commands
 
-- `npm transfer <file>` - Generate QR image to transfer file.
-- `npm receive <directory>` - Receive files using multipart upload.
+- `qrscp transfer <file>` - Generate QR image to transfer file.
+- `qrscp receive <directory>` - Receive files using multipart upload.
 
 ## Installation
 
 To install this command line tool:
 
 ~~~bash
-npm install -g qrscp
+npm install -g @ffimnsr/qrscp
 ~~~
 
 ## Credits
