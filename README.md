@@ -14,6 +14,8 @@ Quick QR file transfer over local connection.
 
 ## Commands
 
+See `--help` for more info and commands.
+
 - `qrscp transfer <file>` - Generate QR image to transfer file.
 - `qrscp receive <directory>` - Receive files using multipart upload.
 

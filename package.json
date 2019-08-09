@@ -1,6 +1,6 @@
 {
   "name": "@ffimnsr/qrscp",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Quick QR file transfer over local connection.",
   "main": "index.js",
   "repository": {
