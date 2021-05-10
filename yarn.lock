@@ -10,15 +10,15 @@ __metadata:
   resolution: "@ffimnsr/qrscp@workspace:."
   dependencies:
     chalk: ^4.1.1
-    commander: ^3.0.0
-    envinfo: ^7.3.1
+    commander: ^7.2.0
+    envinfo: ^7.8.1
     express: ^4.17.1
-    inquirer: ^7.0.0
-    morgan: ^1.9.1
+    inquirer: ^8.0.0
+    morgan: ^1.10.0
     multer: ^1.4.2
     qrcode-terminal: ^0.12.0
     serve-static: ^1.14.1
-    shortid: ^2.2.14
+    shortid: ^2.2.16
   bin:
     qrscp: ./index.js
   languageName: unknown
@@ -173,10 +173,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"commander@npm:^3.0.0":
-  version: 3.0.2
-  resolution: "commander@npm:3.0.2"
-  checksum: 28071a49d23606c1e31f1f275d2aac9c03833cb3442e04b798ffbcd5f7fb7a1fbfc6b5bc6a69b862df83f475378665623788118d189c254a173248c452bd77a2
+"commander@npm:^7.2.0":
+  version: 7.2.0
+  resolution: "commander@npm:7.2.0"
+  checksum: bdc0eca5e25cd24af8440163d3c9a996785bbac4b49a590365699cdc1ed08cefbac8f268153208ab2bc5dc3cb1d3fb573fd1590c681e36e371342186bd331a4c
   languageName: node
   linkType: hard
 
@@ -290,7 +290,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"envinfo@npm:^7.3.1":
+"envinfo@npm:^7.8.1":
   version: 7.8.1
   resolution: "envinfo@npm:7.8.1"
   bin:
@@ -463,9 +463,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"inquirer@npm:^7.0.0":
-  version: 7.3.3
-  resolution: "inquirer@npm:7.3.3"
+"inquirer@npm:^8.0.0":
+  version: 8.0.0
+  resolution: "inquirer@npm:8.0.0"
   dependencies:
     ansi-escapes: ^4.2.1
     chalk: ^4.1.0
@@ -473,14 +473,14 @@ __metadata:
     cli-width: ^3.0.0
     external-editor: ^3.0.3
     figures: ^3.0.0
-    lodash: ^4.17.19
+    lodash: ^4.17.21
     mute-stream: 0.0.8
     run-async: ^2.4.0
-    rxjs: ^6.6.0
+    rxjs: ^6.6.6
     string-width: ^4.1.0
     strip-ansi: ^6.0.0
     through: ^2.3.6
-  checksum: fa0cbd9594a04e04c5c10a806e9a86b23986acdc7d07c75afdbc03412ff03b1d201efa83d9d64929afe99a901a093bfc9ae7ab13560f8e557cb98eddbe5bf37d
+  checksum: 7dbe4461f5b217e53e8ba1b81a10b88033ecb814678c23e9e8286600a9c055887e6b8fae1c0ce5c4da56b8301d199bab668a00618ba174332066d1ca927f16ea
   languageName: node
   linkType: hard
 
@@ -512,7 +512,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lodash@npm:^4.17.19":
+"lodash@npm:^4.17.21":
   version: 4.17.21
   resolution: "lodash@npm:4.17.21"
   checksum: 4983720b9abca930a4a46f18db163d7dad8dd00dbed6db0cc7b499b33b717cce69f80928b27bbb1ff2cbd3b19d251ee90669a8b5ea466072ca81c2ebe91e7468
@@ -590,7 +590,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"morgan@npm:^1.9.1":
+"morgan@npm:^1.10.0":
   version: 1.10.0
   resolution: "morgan@npm:1.10.0"
   dependencies:
@@ -803,7 +803,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rxjs@npm:^6.6.0":
+"rxjs@npm:^6.6.6":
   version: 6.6.7
   resolution: "rxjs@npm:6.6.7"
   dependencies:
@@ -866,7 +866,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"shortid@npm:^2.2.14":
+"shortid@npm:^2.2.16":
   version: 2.2.16
   resolution: "shortid@npm:2.2.16"
   dependencies:

@@ -38,10 +38,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",
           "packageDependencies": [
             ["chalk", "npm:4.1.1"],
-            ["commander", "npm:3.0.2"],
+            ["commander", "npm:7.2.0"],
             ["envinfo", "npm:7.8.1"],
             ["express", "npm:4.17.1"],
-            ["inquirer", "npm:7.3.3"],
+            ["inquirer", "npm:8.0.0"],
             ["morgan", "npm:1.10.0"],
             ["multer", "npm:1.4.2"],
             ["qrcode-terminal", "npm:0.12.0"],
@@ -57,10 +57,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["@ffimnsr/qrscp", "workspace:."],
             ["chalk", "npm:4.1.1"],
-            ["commander", "npm:3.0.2"],
+            ["commander", "npm:7.2.0"],
             ["envinfo", "npm:7.8.1"],
             ["express", "npm:4.17.1"],
-            ["inquirer", "npm:7.3.3"],
+            ["inquirer", "npm:8.0.0"],
             ["morgan", "npm:1.10.0"],
             ["multer", "npm:1.4.2"],
             ["qrcode-terminal", "npm:0.12.0"],
@@ -245,10 +245,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["commander", [
-        ["npm:3.0.2", {
-          "packageLocation": "./.yarn/cache/commander-npm-3.0.2-7c81f1ab98-28071a49d2.zip/node_modules/commander/",
+        ["npm:7.2.0", {
+          "packageLocation": "./.yarn/cache/commander-npm-7.2.0-19178180f8-bdc0eca5e2.zip/node_modules/commander/",
           "packageDependencies": [
-            ["commander", "npm:3.0.2"]
+            ["commander", "npm:7.2.0"]
           ],
           "linkType": "HARD",
         }]
@@ -589,10 +589,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["inquirer", [
-        ["npm:7.3.3", {
-          "packageLocation": "./.yarn/cache/inquirer-npm-7.3.3-9e86782610-fa0cbd9594.zip/node_modules/inquirer/",
+        ["npm:8.0.0", {
+          "packageLocation": "./.yarn/cache/inquirer-npm-8.0.0-04699e68d7-7dbe4461f5.zip/node_modules/inquirer/",
           "packageDependencies": [
-            ["inquirer", "npm:7.3.3"],
+            ["inquirer", "npm:8.0.0"],
             ["ansi-escapes", "npm:4.3.2"],
             ["chalk", "npm:4.1.1"],
             ["cli-cursor", "npm:3.1.0"],
