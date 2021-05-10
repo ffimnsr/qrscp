@@ -1,6 +1,6 @@
 {
   "name": "@ffimnsr/qrscp",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Quick QR file transfer over local connection.",
   "main": "index.js",
   "repository": {
@@ -14,9 +14,7 @@
     "start": "./index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "bin": {
-    "qrscp": "./index.js"
-  },
+  "bin": "./index.js",
   "bugs": {
     "url": "https://github.com/ffimnsr/qrscp/issues"
   },
@@ -31,6 +29,7 @@
   "author": "ffimnsr",
   "license": "MIT",
   "dependencies": {
+    "chalk": "^4.1.1",
     "commander": "^3.0.0",
     "envinfo": "^7.3.1",
     "express": "^4.17.1",

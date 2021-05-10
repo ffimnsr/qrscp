@@ -1,3 +1,10 @@
 /cuddlyferris.png
 /node_modules/
 /uploads/
+
+.yarn/*
+!.yarn/cache
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
